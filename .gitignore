@@ -1,0 +1,32 @@
+lerna-debug.log
+node_modules
+npm-debug.log
+.DS_Store
+coverage
+.nyc_output
+/dist
+.sandbox
+*.tsbuildinfo
+*.trace
+/logs
+
+# ESLint cache
+.eslintcache
+
+# This file will be copied from a template
+.dockerignore
+
+*.zip
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+./src/types
+
+# Webstorm
+.idea/
+
+# Redis local
+*.rdb
